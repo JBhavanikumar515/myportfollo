@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000000;
+            background-color: #a7dad7;
+            margin: 20px;
+            text-align: center;
+        }
+        ol{
+            padding: 20px;
+        }
+        ol li{
+            margin: 20px;
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            border: 1px solid #fff;
+            border-radius: 1px;
+
+            
+        }
+        ol:nth-child(odd){
+            background-color: #f2f2f2;
+        }
+
+        button{
+            margin: 2px;
+            padding: 5px;
+            
+            
+        }
+        
+        
+        table{
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px;
+        }
+        table, th, td{
+            border: 1px solid #fff;
+        } 
+        th, td{
+            padding: 10px;
+            text-align: left;
+        }
+        th{
+            border-color: #fff;
+        }
+        
+        tr:hover{
+            background-color: #626262;
+        }
+
+    </style>
+    
+</head>
+<body>
+
+    <div align="center"><h1>Welcome to Portfolio</h1>
+    <a href=""> <button>About</button></a>
+    <a href=""> <button>Skills</button></a>
+    <a href="https://github.com/JBhavanikumar515?tab=repositories"> <button>Projects</button></a>
+    <a href=""> <button>Contact</button></a></div>
+
+
+   <main> <h1 align="center">J.Bhavani kumar</h1>
+    <p align="center">I'm a passionate web developer with a focus Front-end technologies.<br>
+        I'm currently pursuing my B.Tech in KL University vijayawada.<br>
+        I have learnt Web development from code with swaroop.<br>
+        You can <b>Click here!</b> to check out what I have learnt in HTML, CSS, Javascript.<br+>
+    </p></main>
+    <div align="center">
+    <h1 >My Skills</h1>
+    <ol type="A" align="center" >
+        <li>Python</li>
+        <li>C language</li>
+        <li>Java</li>
+    </ol></div>
+    <h1 align="center">Contact Me</h1>
+    <p align="center">Feel free to get in touch with me using the form below : </p>
+    
+    <div align="center"><label for="Name"><b>Name:</b></label>
+    <input type="text"size="16px" id="Name" name="Name" placeholder="Enter your name" required ><br>
+
+    <label for="Email"><b>Email:</b></label>
+    <input type="Email" size="16px" id="Email" name="Email" placeholder="Enter your email" required><br><br>
+
+    <b>Choose your Gender:</b>
+    
+    <input type="radio" id="male" value="Male">
+    <label for="male">Male</label>
+
+        
+    <input type="radio" id="female" value="female">
+    <label for="female">female</label><br><br>
+
+    <b>Select your interest:</b>
+    <input type="checkbox" id="coding" value="coding">
+    <label for="coding">coding</label>
+
+    <input type="checkbox" id="reading" value="reading">
+    <label for="reading">reading</label><br>
+
+    <label for="reading"><b>Bio (up to 200 character)</b>:</label><br>
+    <input type="text"><br>
+    <button >Submit</button></div>
+
+    <h1 align="center">My Projects</h1>
+    
+    <div><table border="1" align="center">
+        <tr>
+           <th>Projects</th>
+           <th>Description</th> 
+        </tr>
+        <tr>
+            <td>Portfolio website</td>
+            <td>I have built a Portfolio website by using HTML,CSS and Javascript </td>
+        </tr>
+        <tr>
+            <td>Python simple calculator</td>
+            <td>I have built a simple calculator in the course by Code with swaroop website</td>
+        </tr>
+        
+    </table></div></p>
+
+</body>
+</html>
